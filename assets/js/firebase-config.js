@@ -1,18 +1,18 @@
 // Add your Firebase web-app configuration here. These are public client config values;
 // database security must be enforced by Firestore/Storage Rules (see firebase/).
 export const firebaseConfig = {
-  apiKey: "YOUR_FIREBASE_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.firebasestorage.app",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_FIREBASE_APP_ID"
+  apiKey: "AIzaSyBAa1M0VDtwLQE_XwYcree5w80wzrf-XlE",
+  authDomain: "freshmart-ds.firebaseapp.com",
+  projectId: "freshmart-ds",
+  storageBucket: "freshmart-ds.firebasestorage.app",
+  messagingSenderId: "888173656066",
+  appId: "1:888173656066:web:102666ffa434886e134f1b"
 };
 export const appConfig = {
-  adminEmail: "owner@example.com", // exact Google account allowed to administer this store
+  adminEmail: "adityasinghzrx@gmail.com", // exact Google account allowed to administer this store
   storeName: "FreshMart",
   storeTagline: "Your Neighbourhood General Store",
-  whatsapp: "", // international format digits only, e.g. 91XXXXXXXXXX
+  whatsapp: "918840583727", // international format digits only, e.g. 91XXXXXXXXXX
   storeAddress: "",
   latitude: "",
   longitude: "",
