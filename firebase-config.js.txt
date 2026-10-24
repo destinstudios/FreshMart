@@ -1,0 +1,25 @@
+// Add your Firebase web-app configuration here. These are public client config values;
+// database security must be enforced by Firestore/Storage Rules (see firebase/).
+export const firebaseConfig = {
+  apiKey: "YOUR_FIREBASE_API_KEY",
+  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT_ID.firebasestorage.app",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_FIREBASE_APP_ID"
+};
+export const appConfig = {
+  adminEmail: "owner@example.com", // exact Google account allowed to administer this store
+  storeName: "FreshMart",
+  storeTagline: "Your Neighbourhood General Store",
+  whatsapp: "", // international format digits only, e.g. 91XXXXXXXXXX
+  storeAddress: "",
+  latitude: "",
+  longitude: "",
+  mapsEmbedUrl: "",
+  currency: "INR",
+  demoMode: true // stays in local demo mode until Firebase config is replaced and demoMode=false
+};
+export const isFirebaseConfigured = !appConfig.demoMode &&
+  firebaseConfig.apiKey !== "YOUR_FIREBASE_API_KEY" &&
+  firebaseConfig.projectId !== "YOUR_PROJECT_ID";
