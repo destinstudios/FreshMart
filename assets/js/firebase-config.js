@@ -18,7 +18,7 @@ export const appConfig = {
   longitude: "",
   mapsEmbedUrl: "",
   currency: "INR",
-  demoMode: true // stays in local demo mode until Firebase config is replaced and demoMode=false
+  demoMode: false // stays in local demo mode until Firebase config is replaced and demoMode=false
 };
 export const isFirebaseConfigured = !appConfig.demoMode &&
   firebaseConfig.apiKey !== "YOUR_FIREBASE_API_KEY" &&
